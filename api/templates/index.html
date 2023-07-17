@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yoga Pose Analyser</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+	<div class="center">
+		<h1>Yoga Pose Analyser</h1>
+		<p>To stop yoga pose analysis, press 'q'.</p>
+		<form action="/capture" method="post">
+			<input type="submit" value="Start">
+		</form>
+	</div>
+</body>
+</html>
